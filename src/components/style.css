@@ -1,0 +1,143 @@
+.form-cha {
+  height: 100vh;
+  padding-top: 50px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding-top: 100px;
+}
+.todolist {
+  margin-top: 10px;
+  width: 1100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+h1 {
+  text-align: center;
+}
+
+ul {
+  padding: 15px;
+}
+ul li {
+  background-color: rgb(222, 222, 225);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+}
+.button-css-icon {
+  border: none;
+  border-radius: 5px;
+  padding: 0px 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 6px;
+}
+.button-xoa-check{
+  font-size: 30px !important;
+  color: red;
+  cursor: pointer;
+}
+.button-css-icon:hover {
+  background-color: rgba(147, 196, 255, 0.39);
+  transition: all 0.3s ease;
+}
+.input-text {
+  width: 250px;
+}
+.form-view {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-view div {
+  margin-top: 10px;
+}
+.editIcon {
+  cursor: pointer;
+  color: "#1976d2";
+}
+.listtodo {
+  padding-bottom: 20px;
+  padding: 10px;
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th:first-child,
+td:first-child {
+  width: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.33);
+  height: 30px;
+}
+th:nth-child(8),
+td:nth-child(8) {
+  width: 60px;
+}
+th:nth-child(2),
+td:nth-child(2) {
+  width: 20px;
+}
+th:nth-child(6),
+td:nth-child(6) {
+  width: 30px;
+}
+th:not(:first-child),
+td:not(:first-child) {
+  border: 1px solid rgba(0, 0, 0, 0.33);
+}
+td {
+  padding: 0 10px;
+}
+.index-text {
+  text-align: center;
+}
+.icon-edit-delete {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.editIcon {
+  color: blue;
+}
+.error {
+  color: red;
+}
+button:hover .icon-add {
+  color: blue;
+  transition: all 0.3s ease;
+}
+.icon-add {
+  margin-left: 10px;
+}
+.th-1{
+  padding-left: 20px;
+}
+table{
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+.fa-pen{
+  margin-left: 5px;
+}
+.fa-plus{
+  margin-left: 5px;
+}

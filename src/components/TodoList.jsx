@@ -238,7 +238,7 @@ const TodoList = () => {
                 </div>
                 <div>
                   <TextField
-                    label="email"
+                    label="Email"
                     className="input-text"
                     value={addTodo.email}
                     type="email"
